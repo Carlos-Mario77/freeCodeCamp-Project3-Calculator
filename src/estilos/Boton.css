@@ -1,0 +1,25 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1;/*Esta permite tener una longitud flexible, permite definir cuánto se puede encoger o expandir el componente en base a otros que tenga cerca, será la proporción de 1 a 1 horizontal y verticalmente*/
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;/*Como el botón fue en base a un div y no en un button, esta propiedad perimte que con el mouse no se seleccione el número o el operador, asemejándose más a un botón*/
+}
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+}
+.operador{
+    background-color: #00471b;
+}
+.operador:hover{
+    background-color: #ff6600;
+}
